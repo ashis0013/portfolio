@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Spin as Hamburger } from 'hamburger-react'
 import { DarkModeSwitch } from 'react-toggle-dark-mode'
+import CV from '../assets/cv.pdf'
 import useDarkMode from '../hooks/useDark'
 
 type Props = {
@@ -32,6 +33,12 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false)
   const [theme, setTheme] = useDarkMode()
   const isDark = theme === 'dark'
+  const download = () => {
+      const a = document.createElement('a')
+      a.href = CV
+      a.target = '_blank'
+      a.click()
+    }
 
   const handleNav = () => {
     setNav(!nav)
@@ -44,7 +51,7 @@ export const Navbar = () => {
           {elements.map((e, i) => (
             <TextMenu key={i} name={e} tclass='p-4' />
           ))}
-          <Button name='Resume' onClick={() => {}} />
+          <Button name='Resume' onClick={download} />
         </ul>
         <DarkModeSwitch
           className=' mx-6'
@@ -84,7 +91,7 @@ export const Navbar = () => {
                 tclass={`p-4 items-center ${i !== 3 ? ' border-b border-dprimary' : ''}`}
               />
             ))}
-            <Button name='Resume' onClick={() => {}} />
+            <Button name='Resume' onClick={download} />
           </ul>
         </ul>
       </nav>

@@ -21,7 +21,7 @@ export const exps: work[] = [
     endDate: 'Jan. 2023',
     position: 'Software Engineer',
     company: 'Compass',
-    companyLink: 'ds',
+    companyLink: 'https://compass.com',
     works: [
       'Contributing to gRPC backend services responsible for generating insights for compass listings. Improved test coverage of the service codebase from 10% to 86%. Currently contributing to new features to gather openhouse and email-campaign insights',
       'Developed a backend microservice to gather insights on the third party support ticketing service, which helped product team to identify the problem areas in customer support and helped the support team to reduce the resolution time by 25%.',
@@ -35,7 +35,7 @@ export const exps: work[] = [
     endDate: 'Jul. 2020',
     position: 'software Engineer Intern',
     company: 'Microsoft',
-    companyLink: '',
+    companyLink: 'https://www.microsoft.com/en-in',
     works: [
       'Developed a pClick model to predict clickability of bing ads from global market data using Aether and Scope',
       'Studied impact of the global model on the large and small markets where the global model performed as good (less by 0.01%) as market specific models',
