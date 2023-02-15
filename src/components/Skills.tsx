@@ -13,6 +13,7 @@ export const Skills = () => {
   const nextVals = () => setIdx((x) => (x + 1) % vals.length)
   useEffect(() => {
     setInterval(prevVals, 7500)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (

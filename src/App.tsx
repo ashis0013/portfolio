@@ -22,6 +22,7 @@ function App() {
         className='fixed left-0 bottom-0 m-2'
         target='_blank'
         href='https://github.com/ashis0013/portfolio'
+        rel='noreferrer'
       >
         <BiCodeAlt className='text-lsurface dark:text-dsurface' size={20} />
       </a>

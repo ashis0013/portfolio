@@ -14,7 +14,12 @@ export const Home = () => {
         <p className='md:text-xl text-md font-bold text-lsubtext dark:text-dsubtext'>
           I’m a software engineer specializing in building productaion grade backend systems.
           Currently, I’m focused on building cutting edge softwares at{' '}
-          <a href='https://blox.xyz/' target='_blank' className='text-lpeach dark:text-dpeach'>
+          <a
+            href='https://blox.xyz/'
+            target='_blank'
+            className='text-lpeach dark:text-dpeach'
+            rel='noreferrer'
+          >
             Blox.xyz
           </a>
         </p>

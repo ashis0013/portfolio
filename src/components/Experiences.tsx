@@ -48,6 +48,7 @@ export const Experiences = () => {
                 href={exps[company].companyLink}
                 target='_blank'
                 className='text-lprimary dark:text-dprimary'
+                rel='noreferrer'
               >
                 {' '}
                 @{exps[company].company}

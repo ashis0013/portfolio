@@ -12,15 +12,15 @@ const Card = (props: { proj: project }) => (
     <div className='flex w-full justify-between my-3'>
       <div></div>
       {(props.proj.docLink ?? '') !== '' && (
-        <a href={props.proj.docLink} target={'_blank'}>
+        <a href={props.proj.docLink} target={'_blank'} rel='noreferrer'>
           <HiOutlineDocumentText className='text-ltext dark:text-dtext' size={25} />
         </a>
       )}
-      <a href={props.proj.githubLink} target={'_blank'}>
+      <a href={props.proj.githubLink} target={'_blank'} rel='noreferrer'>
         <FiGithub className='text-ltext dark:text-dtext' size={25} />
       </a>
       {(props.proj.outLink ?? '') !== '' && (
-        <a href={props.proj.outLink} target={'_blank'}>
+        <a href={props.proj.outLink} target={'_blank'} rel='noreferrer'>
           <FiExternalLink className='text-ltext dark:text-dtext' size={25} />
         </a>
       )}
@@ -50,11 +50,17 @@ export const Projects = () => {
             className='underline'
             href='https://scholar.google.com/citations?user=CPM11WAAAAAJ'
             target='_blank'
+            rel='noreferrer'
           >
             here
           </a>{' '}
           and find more projects{' '}
-          <a className='underline' href='https://github.com/ashis0013' target='_blank'>
+          <a
+            className='underline'
+            href='https://github.com/ashis0013'
+            target='_blank'
+            rel='noreferrer'
+          >
             here
           </a>
         </p>

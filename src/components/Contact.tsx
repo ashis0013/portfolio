@@ -25,6 +25,7 @@ export const Contact = () => {
               onClick={() => {
                 const a = document.createElement('a')
                 a.href = 'mailto:paulashis0013@gmail.com'
+                a.rel = 'noreferrer'
                 a.click()
               }}
             />
@@ -36,16 +37,24 @@ export const Contact = () => {
           </div>
           <div className='w-full px-16 h-[1px] bg-lsubtext dark:bg-dsubtext mt-2'></div>
           <div className='flex justify-between w-full mt-4'>
-            <a href='https://www.linkedin.com/in/ashis-paul-173479150/' target='_blank'>
+            <a
+              href='https://www.linkedin.com/in/ashis-paul-173479150/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <FiLinkedin className='text-ltext dark:text-dtext' size={25} />
             </a>
-            <a href='https://github.com/ashis0013' target='_blank'>
+            <a href='https://github.com/ashis0013' target='_blank' rel='noreferrer'>
               <FiGithub className='text-ltext dark:text-dtext' size={25} />
             </a>
-            <a href='https://scholar.google.com/citations?user=CPM11WAAAAAJ' target='_blank'>
+            <a
+              href='https://scholar.google.com/citations?user=CPM11WAAAAAJ'
+              target='_blank'
+              rel='noreferrer'
+            >
               <SiGooglescholar className='text-ltext dark:text-dtext' size={25} />
             </a>
-            <a href='https://twitter.com/paulashis0013' target='_blank'>
+            <a href='https://twitter.com/paulashis0013' target='_blank' rel='noreferrer'>
               <FiTwitter className='text-ltext dark:text-dtext' size={25} />
             </a>
             <div></div>

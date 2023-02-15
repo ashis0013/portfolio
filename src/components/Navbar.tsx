@@ -34,11 +34,11 @@ export const Navbar = () => {
   const [theme, setTheme] = useDarkMode()
   const isDark = theme === 'dark'
   const download = () => {
-      const a = document.createElement('a')
-      a.href = CV
-      a.target = '_blank'
-      a.click()
-    }
+    const a = document.createElement('a')
+    a.href = CV
+    a.target = '_blank'
+    a.click()
+  }
 
   const handleNav = () => {
     setNav(!nav)
