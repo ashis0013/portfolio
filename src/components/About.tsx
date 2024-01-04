@@ -12,12 +12,7 @@ export const About = (props: {}) => {
       </div>
       <div className='flex flex-col md:flex-row'>
         <p className='text-base md:text-lg text-ltext dark:text-dtext my-auto mb-16 md:mr-24'>
-          Hello, this is Ashis Paul. I am a Full stack developer with over 1.5 years of experience
-          in building software solution at pace and at scale. Passionate in using declarative
-          paradigm. As a dedicated problem solver I have experience of working in Backend
-          Development, Android Development and Frontend Web Development. Skilled in Microservices,
-          Distributed Systems, Go, Kotlin, Amazon Web Service, Low Level Design, Algorithm, Native
-          Android Development, Data Structure.
+          Engineer with over 2 years of experience building products at pace and scale. Bringing in the declarative paradigm at product development. A dedicated problem solver. Experienced in almost all corners of business-driven software development. Worked extensively in Fullstack Development and AI as well as skilled in Microservices, Deep Learning, Distributed Systems, Python, Go, Kotlin, Amazon Web Service, Low-Level Design, Algorithm, and Data Structure.
         </p>
         <div className='mx-auto'>
           <Skills />

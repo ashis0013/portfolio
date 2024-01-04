@@ -17,13 +17,28 @@ export type project = {
 
 export const exps: work[] = [
   {
+    startDate: 'Feb. 2023',
+    endDate: 'present',
+    position: 'Software Engineer',
+    company: 'Blox',
+    companyLink: 'https://blox.xyz',
+    works: [
+      "World's first Real Estate NER (Named Entity Recognition). Developed voice‑based real estate search which can handle contextual natural language Search ‑ \"sea facing properties in  Malad east\"",
+      "Delivered the latest iteration of Blox frontend using Next.js. Incorporated a middleware (Go/BFF) for aggregating API calls and caching.",
+      'Developed RASA-based chatbot which is capable of searching properties, performing actions such as site booking and answering non-domain specific questions like chat GPT ',
+      'Developed a novel method to separate voices in an audio using deep feature extraction followed by k-means clustering.',
+      'Generative AI in image upscaling by Generative Adversarial Network (GAN): Implemented an image enhancement pipeline incorporating AWS Lambda and S3 to make sure all the images on the website are AI-enhanced.',
+      'Delivered a Live and Past location tracking system for Agents ( Relationship Managers ) using open-source low-code backend framework and corresponding DSL. Past tracking: https://rm-tracker.blox.co.in'
+    ],
+  },
+  {
     startDate: 'Jul. 2021',
     endDate: 'Jan. 2023',
     position: 'Software Engineer',
     company: 'Compass',
     companyLink: 'https://compass.com',
     works: [
-      'Contributing to gRPC backend services responsible for generating insights for compass listings. Improved test coverage of the service codebase from 10% to 86%. Currently contributing to new features to gather openhouse and email-campaign insights',
+      'Contributed to gRPC backend services responsible for generating insights for compass listings. Improved test coverage of the service codebase from 10% to 86%. Currently contributing to new features to gather openhouse and email-campaign insights',
       'Developed a backend microservice to gather insights on the third party support ticketing service, which helped product team to identify the problem areas in customer support and helped the support team to reduce the resolution time by 25%.',
       'Delivered frontend features using React to enhance article search used in the compass Support and Onboarding System',
       'Worked with CRM and TM Android team and delivered crucial features such as Client Dashboard, Contact Import, Household Support which are being used by over 10 thousands compass agents',

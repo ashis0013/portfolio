@@ -9,10 +9,10 @@ export const Home = () => {
           Ashis Paul
         </h1>
         <p className='md:text-5xl sm:text-4xl text-3xl font-bold py-4 text-lsubtext dark:text-dsubtext'>
-          fullstack software engineer
+          software engineer
         </p>
         <p className='md:text-xl text-md font-bold text-lsubtext dark:text-dsubtext'>
-          I’m a software engineer specializing in building productaion grade backend systems.
+          I’m a software engineer with over 2 years of experience.
           Currently, I’m focused on building cutting edge softwares at{' '}
           <a
             href='https://blox.xyz/'
