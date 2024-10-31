@@ -51,7 +51,7 @@ export const Navbar = () => {
           {elements.map((e, i) => (
             <TextMenu key={i} name={e} tclass='p-4' />
           ))}
-          <Button name='Resume' onClick={download} />
+          <Button name='Résumé' onClick={download} />
         </ul>
         <DarkModeSwitch
           className=' mx-6'
@@ -91,7 +91,7 @@ export const Navbar = () => {
                 tclass={`p-4 items-center ${i !== 3 ? ' border-b border-dprimary' : ''}`}
               />
             ))}
-            <Button name='Resume' onClick={download} />
+            <Button name='Résumé' onClick={download} />
           </ul>
         </ul>
       </nav>

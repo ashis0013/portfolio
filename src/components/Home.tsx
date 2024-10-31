@@ -12,15 +12,15 @@ export const Home = () => {
           software engineer
         </p>
         <p className='md:text-xl text-md font-bold text-lsubtext dark:text-dsubtext'>
-          I’m a software engineer with over 2 years of experience.
+          I’m a software engineer with over 3 years of experience.
           Currently, I’m focused on building cutting edge softwares at{' '}
           <a
-            href='https://blox.xyz/'
+            href='https://www.dpworld.com/'
             target='_blank'
             className='text-lpeach dark:text-dpeach'
             rel='noreferrer'
           >
-            Blox.xyz
+            DP World
           </a>
         </p>
       </div>

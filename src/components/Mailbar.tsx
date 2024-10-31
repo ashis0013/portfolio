@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Mailbar = () => {
   return (
     <div className='scale-0 lg:scale-100 fixed bottom-0 right-0 mr-12 ease-out duration-200'>

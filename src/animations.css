@@ -1,0 +1,51 @@
+@keyframes orbit1 {
+  0% {
+    transform: rotate(0deg) translateX(60px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(60px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit2 {
+  0% {
+    transform: rotate(45deg) translateX(80px) rotate(-45deg);
+  }
+  100% {
+    transform: rotate(405deg) translateX(80px) rotate(-405deg);
+  }
+}
+
+@keyframes orbit3 {
+  0% {
+    transform: rotate(90deg) translateX(100px) rotate(-90deg);
+  }
+  100% {
+    transform: rotate(450deg) translateX(100px) rotate(-450deg);
+  }
+}
+
+@keyframes orbit4 {
+  0% {
+    transform: rotate(135deg) translateX(115px) rotate(-135deg);
+  }
+  100% {
+    transform: rotate(495deg) translateX(115px) rotate(-495deg);
+  }
+}
+
+.animate-orbit1 {
+  animation: orbit1 3s linear infinite;
+}
+
+.animate-orbit2 {
+  animation: orbit2 4.2s linear infinite;
+}
+
+.animate-orbit3 {
+  animation: orbit3 3.6s linear infinite;
+}
+
+.animate-orbit4 {
+  animation: orbit4 4.6s linear infinite;
+}

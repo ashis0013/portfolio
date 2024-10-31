@@ -17,8 +17,18 @@ export type project = {
 
 export const exps: work[] = [
   {
-    startDate: 'Feb. 2023',
+    startDate: 'Jun. 2024',
     endDate: 'present',
+    position: 'Group Software Engineer',
+    company: 'DP World',
+    companyLink: 'https://dpworld.com',
+    works: [
+      "World's first Real Estate NER (Named Entity Recognition). Developed voice‑based real estate search which can handle contextual natural language Search ‑ \"sea facing properties in  Malad east\"",
+    ],
+  },
+  {
+    startDate: 'Feb. 2023',
+    endDate: 'Jun. 2024',
     position: 'Software Engineer',
     company: 'Blox',
     companyLink: 'https://blox.xyz',

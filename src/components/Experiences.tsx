@@ -7,22 +7,22 @@ export const Experiences = () => {
   return (
     <div
       id='experience'
-      className='max-w-[920px] mt-[-96px] w-full h-screen mx-auto text-left flex flex-col justify-center px-8'
+      className='max-w-[920px] mb-48 md:mb-2 my-auto w-full h-screen mx-auto text-left flex flex-col justify-center px-8'
     >
-      <div className='text-2xl md:text-4xl text-lprimary dark:text-dprimary mb-16 font-mono'>
+      <div className='text-2xl md:text-4xl text-lprimary dark:text-dprimary mb-4 md:mb-16 font-mono'>
         work experiences
       </div>
-      <div className='flex flex-col mx-auto'>
-        <div className='flex md:hidden m-2'>
+      <div className='mx-auto w-full'>
+        <div className='flex md:hidden m-2 overflow-scroll'>
           {exps.map((e, i) => (
             <div
               key={i}
-              className={`flex h-12 w-28 hover:bg-lsurface dark:hover:bg-dsurface ${
-                i === company ? 'text-lprimary dark:text-dprimary' : 'text-ltext dark:text-dtext'
+              className={`flex shrink-0 h-12 w-28 hover:bg-lsurface dark:hover:bg-dsurface ${
+                i === company ? 'bg-lsurface dark:bg-dsurface text-lprimary dark:text-dprimary' : 'text-ltext dark:text-dtext'
               }`}
               onClick={() => setCompany(i)}
             >
-              <div className='mx-4 my-auto'>{e.company}</div>
+              <div className='mx-auto my-auto'>{e.company}</div>
             </div>
           ))}
         </div>
@@ -57,7 +57,7 @@ export const Experiences = () => {
             <p className='m-2 text-xs md:text-sm text-llav dark:text-dlav font-mono'>
               {exps[company].startDate} - {exps[company].endDate ?? 'Present'}
             </p>
-            <ul className='list-disc mx-4'>
+            <ul className='list-disc mx-4 mt-2'>
               {exps[company].works.map((w, i) => (
                 <li key={i} className='text-sm md:text-md text-ltext dark:text-dtext'>
                   {w}

@@ -33,7 +33,7 @@ export const Projects = () => {
   return (
     <div
       id='projects'
-      className='max-w-[920px] my-[64px] w-full min-h-screen mx-auto text-left flex flex-col justify-center px-8'
+      className='max-w-[920px] my-auto w-full min-h-screen mx-auto text-left flex flex-col justify-center px-8'
     >
       <div className='text-2xl md:text-4xl text-lprimary dark:text-dprimary mb-16 font-mono'>
         projects

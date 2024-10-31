@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button } from './Navbar'
 import { FiLinkedin, FiGithub, FiTwitter } from 'react-icons/fi'
 import { SiGooglescholar } from 'react-icons/si'
