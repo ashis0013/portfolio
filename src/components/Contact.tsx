@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
     <div
       id='contact'
-      className='max-w-[920px] mt-[-96px] w-full h-screen mx-auto text-left flex flex-col justify-center px-8'
+      className='max-w-[920px] w-full h-screen mx-auto text-left flex flex-col justify-center px-8'
     >
       <div className='text-2xl md:text-4xl text-lprimary dark:text-dprimary mb-8 font-mono'>
         contact
@@ -20,7 +20,7 @@ export const Contact = () => {
           </p>
           <div>
             <Button
-              name='Write Ashis'
+              name='Contact Ashis'
               onClick={() => {
                 const a = document.createElement('a')
                 a.href = 'mailto:paulashis0013@gmail.com'

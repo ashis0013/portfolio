@@ -58,7 +58,7 @@ export const exps: work[] = [
   {
     startDate: 'May. 2020',
     endDate: 'Jul. 2020',
-    position: 'software Engineer Intern',
+    position: 'Software Engineer Intern',
     company: 'Microsoft',
     companyLink: 'https://www.microsoft.com/en-in',
     works: [

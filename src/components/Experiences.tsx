@@ -7,7 +7,7 @@ export const Experiences = () => {
   return (
     <div
       id='experience'
-      className='max-w-[920px] mb-48 md:mb-2 my-auto w-full h-screen mx-auto text-left flex flex-col justify-center px-8'
+      className='max-w-[920px] mb-48 md:mb-2 my-auto w-full min-h-screen mx-auto text-left flex flex-col justify-center px-8'
     >
       <div className='text-2xl md:text-4xl text-lprimary dark:text-dprimary mb-4 md:mb-16 font-mono'>
         work experiences
@@ -57,7 +57,7 @@ export const Experiences = () => {
             <p className='m-2 text-xs md:text-sm text-llav dark:text-dlav font-mono'>
               {exps[company].startDate} - {exps[company].endDate ?? 'Present'}
             </p>
-            <ul className='list-disc mx-4 mt-2'>
+            <ul className='list-disc mx-4 mt-2 max-h-screen overflow-scroll md:overflow-visible'>
               {exps[company].works.map((w, i) => (
                 <li key={i} className='text-sm md:text-md text-ltext dark:text-dtext'>
                   {w}
