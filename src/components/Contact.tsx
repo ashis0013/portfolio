@@ -22,10 +22,7 @@ export const Contact = () => {
             <Button
               name='Contact Ashis'
               onClick={() => {
-                const a = document.createElement('a')
-                a.href = 'mailto:paulashis0013@gmail.com'
-                a.rel = 'noreferrer'
-                a.click()
+                window.open('mailto:paulashis0013@gmail.com');
               }}
             />
           </div>

@@ -23,7 +23,7 @@ export const exps: work[] = [
     company: 'DP World',
     companyLink: 'https://dpworld.com',
     works: [
-      "World's first Real Estate NER (Named Entity Recognition). Developed voice‑based real estate search which can handle contextual natural language Search ‑ \"sea facing properties in  Malad east\"",
+      "Led the end to end development of Onbaording service to onboard companies and their products for dp world tenant, empowering them to speed up the existing manual onboarding process.",
     ],
   },
   {

@@ -61,7 +61,7 @@ export const About = () => {
       >
         <div className='p-4 bg-lbg dark:bg-dbg w-100 text-ltext dark:text-dtext shadow-glow'>
           <div className='flex justify-between'>
-            <div className="text-xl text-lprimary dark:text-dprimary mb-4 font-mono">Skills</div>
+            <div className="text-xl px-2 text-lprimary dark:text-dprimary mb-4 font-mono">Skills</div>
             <IoMdClose className='cursor-pointer' onClick={() => setModalIsOpen(false)} />
           </div>
           <p className='px-2 pb-2'>Microservices / AWS / Deep Learning / Spring boot / Next.js / Fullstack Development</p>

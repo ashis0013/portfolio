@@ -1,4 +1,3 @@
-import React from 'react'
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import { HiOutlineDocumentText } from 'react-icons/hi'
 import { project, projects } from './data'

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { exps } from './data'
 
 export const Experiences = () => {
@@ -37,7 +37,7 @@ export const Experiences = () => {
                 }`}
                 onClick={() => setCompany(i)}
               >
-                <div className='mx-4 my-auto'>{e.company}</div>
+                <h2 className='mx-4 my-auto'>{e.company}</h2>
               </div>
             ))}
           </div>
@@ -57,7 +57,7 @@ export const Experiences = () => {
             <p className='m-2 text-xs md:text-sm text-llav dark:text-dlav font-mono'>
               {exps[company].startDate} - {exps[company].endDate ?? 'Present'}
             </p>
-            <ul className='list-disc mx-4 mt-2 max-h-screen overflow-scroll md:overflow-visible'>
+            <ul className='list-disc mx-4 pl-3 mt-2 max-h-screen overflow-scroll md:overflow-visible'>
               {exps[company].works.map((w, i) => (
                 <li key={i} className='text-sm md:text-md text-ltext dark:text-dtext'>
                   {w}
