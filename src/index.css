@@ -11,3 +11,29 @@
   font-family: 'Cascadia Code';
   src: url("/src/assets/CascadiaCode.ttf");
 }
+
+.grad-text {
+  background: linear-gradient(
+    to right,
+    #dd7878,
+    #7287fd,
+    #dd7878,
+    #7287fd,
+    #dd7878,
+    #7287fd
+  );
+  background-size: 3000% 3000%;
+}
+
+.dark .d-grad-text {
+  background: linear-gradient(
+    to right,
+    #fab387,
+    #b4befe,
+    #fab387,
+    #b4befe,
+    #fab387,
+    #b4befe
+  );
+  background-size: 3000% 3000%;
+}

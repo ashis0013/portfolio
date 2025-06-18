@@ -33,8 +33,10 @@ export const About = () => {
         <p className='text-base md:text-lg w-full md:w-2/3 lg:w-3/4 pr-0 lg:pr-8 text-ltext dark:text-dtext mb-8 text-justify'>
           Engineer with over 3 years of experience building products at pace and scale. Bringing in the declarative paradigm at product development. A dedicated problem solver. Experienced in almost all corners of business-driven software development. Worked extensively in Fullstack Development and AI as well as skilled in Microservices, Deep Learning, Distributed Systems, Python, Go, Kotlin, Amazon Web Service, Low-Level Design, Algorithm, and Data Structure.
         </p>
-        <div className='mx-auto mt-8 w-1/3 lg:w-1/4 pl-0 md:pl-10 cursor-pointer' onClick={() => setModalIsOpen(true)}>
-          {isSmallScreen ? <Button name='Skills' onClick={() => { }} /> : <AtomOrbit />}
+        <div className='flex items-center my-auto justify-center w-1/3 lg:w-1/4 cursor-pointer text-lbg dark:text-dbg' onClick={() => setModalIsOpen(true)}>
+          <div className='px-5 py-3 mb-8 rounded grad-text dark:d-grad-text animate-gradient'>
+            My Skills
+          </div>
         </div>
       </div>
       <Modal

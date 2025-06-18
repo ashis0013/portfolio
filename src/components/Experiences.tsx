@@ -18,7 +18,7 @@ export const Experiences = () => {
             <div
               key={i}
               className={`flex shrink-0 h-12 w-28 hover:bg-lsurface dark:hover:bg-dsurface ${
-                i === company ? 'bg-lsurface dark:bg-dsurface text-lprimary dark:text-dprimary' : 'text-ltext dark:text-dtext'
+                i === company ? 'bg-lsurface dark:bg-dpeach text-lprimary dark:text-dprimary' : 'text-ltext dark:text-dtext'
               }`}
               onClick={() => setCompany(i)}
             >

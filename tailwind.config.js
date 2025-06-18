@@ -27,7 +27,20 @@ module.exports = {
       boxShadow: {
         glow: '5px 5px 20px 15px rgb(30 102 245 / 0.1)',
         glowdark: '5px 5px 20px 5px rgb(138 173 244 / 0.1)',
-      }
+      },
+      keyframes: {
+        'gradient': {
+          '0%, 100%': {
+            backgroundPosition: '0% 50%',
+          },
+          '50%': {
+            backgroundPosition: '100% 50%',
+          },
+        },
+      },
+      animation: {
+        'gradient': 'gradient 9s ease-in-out infinite',
+      },
     }
   },
   plugins: [],
